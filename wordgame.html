@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Word Game</title>
+	<link rel="stylesheet" type="text/css" href="wordgame.css">
+	<link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.6/css/all.css">
+</head>
+<body>
+<!-- 
+	<nav class="navbar navbar-default">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-nav-demo" aria-expanded="false">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+
+			</button>
+			<a href="#" class="navbar-brand"><i class="fas fa-arrow-alt-circle-left"></i>       SITE-NAME</a>
+		</div>
+		<div class="collapse navbar-collapse" id="bs-nav-demo">
+		<ul class="nav navbar-nav">
+			<li><a href="#">Lists <i class="fas fa-list-ul"></i></a></li>
+			<li><a href="#">How to play <i class="fas fa-question"></i></a></li>
+		</ul>
+		<ul class="nav navbar-nav navbar-right">
+			<li><a href="#">Sign In <i class="fa fa-user"></i></a></li>
+			<li><a href="#">Sign Up <i class="fa fa-user-plus"></i></a></li>
+		</ul>
+	</div>
+</nav>
+ -->
+
+<div id="upperBackground">
+	<h1>Welcome to the Gaming Area.
+	</h1>
+	<h2>The most intelligent way to improve Vocabulary.</h2>
+	<h3>
+		As you play, we figure out which words you know and which ones you need a little help with. <br>
+We keep practicing with you until you master the tough ones.</h3>
+	<h1>
+	<span id="wordDisplay"></span>
+	</h1>
+	<div id="stripe">
+		<button id="reset">NEW WORDS <i class="fas fa-random"></i></button>
+		<button id="learn">LEARN MORE></button>
+		<span id="message"></span>
+	</div>
+</div>
+    <div id="container">
+	    <div class="square"></div>
+		<div class="square"></div>
+		<div class="square"></div>
+		<div class="square"></div>
+		<div class="square"></div>
+		<div class="square"></div>
+		<div class = "learnBox">
+			<strong> <div class="learnmore">Usage:</div></strong>
+			<div id="usage"></div>
+			<div id="syn1"></div>
+			<strong><div class="learnmore">Synonyms:</div></strong>
+			<div id="syn2"></div>
+			<strong> <div class="learnmore">Antonyms:</div></strong>
+			<div id="ant"></div>
+		</div>
+   	</div>
+   	<script type="text/javascript" src="wordgame.js"></script>
+   	<script src="http://code.jquery.com/jquery-3.3.1.js"
+  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</body>
+</html>
+
+
+
